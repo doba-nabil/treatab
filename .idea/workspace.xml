@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa8e4b07-d718-491c-8132-2d30389e5fae" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5773">
+              <caret line="251" selection-start-line="251" selection-end-line="331" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_css.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/new_css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18860">
+              <caret line="820" column="8" selection-start-line="820" selection-start-column="8" selection-end-line="820" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header-with-searchinpit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header-with-searchinpit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1541">
+              <caret line="436" column="23" selection-start-line="418" selection-start-column="15" selection-end-line="436" selection-end-column="23" />
+              <folding>
+                <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_js.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/new_js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13938">
+              <caret line="606" column="3" selection-start-line="606" selection-start-column="3" selection-end-line="606" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/social.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="1429" column="44" selection-start-line="1429" selection-start-column="40" selection-end-line="1429" selection-end-column="44" />
+              <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lab_re</find>
+      <find>datefield</find>
+      <find>id=&quot;descwrapper&quot;</find>
+      <find>Add to Cart</find>
+      <find>time</find>
+      <find>dr_reservastion</find>
+      <find>boxed</find>
+      <find>card-rate</find>
+      <find>summary</find>
+      <find>msger-header-options</find>
+      <find>msger-header-title</find>
+      <find>ready</find>
+      <find>collapse-category</find>
+      <find>root</find>
+      <find>msger-header</find>
+      <find>price</find>
+      <find>dr_ima</find>
+      <find>follow</find>
+      <find>gallery</find>
+      <find>social</find>
+      <find>post_images</find>
+      <find>see_more</find>
+      <find>Galler</find>
+      <find>img</find>
+      <find>li:nth-child</find>
+      <find>search</find>
+      <find>multiple</find>
+      <find>multipleFile</find>
+      <find>multipleFileUpload</find>
+      <find>file</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#dad6ce</replace>
+      <replace>Product Name</replace>
+      <replace>main_section</replace>
+      <replace>doctors-categories</replace>
+      <replace>&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/cart.html" />
+        <option value="$PROJECT_DIR$/orders.html" />
+        <option value="$PROJECT_DIR$/css/style_rtl.css" />
+        <option value="$PROJECT_DIR$/single-order.html" />
+        <option value="$PROJECT_DIR$/filter.html" />
+        <option value="$PROJECT_DIR$/search_categories.html" />
+        <option value="$PROJECT_DIR$/search_results.html" />
+        <option value="$PROJECT_DIR$/search_new1.html" />
+        <option value="$PROJECT_DIR$/search_new2.html" />
+        <option value="$PROJECT_DIR$/search_new3.html" />
+        <option value="$PROJECT_DIR$/search_new.html" />
+        <option value="$PROJECT_DIR$/search_new4.html" />
+        <option value="$PROJECT_DIR$/js/dropzone.min.js" />
+        <option value="$PROJECT_DIR$/css/dropzone.min.css" />
+        <option value="$PROJECT_DIR$/reservation.html" />
+        <option value="$PROJECT_DIR$/online.html" />
+        <option value="$PROJECT_DIR$/lab_summary.html" />
+        <option value="$PROJECT_DIR$/doctors.html" />
+        <option value="$PROJECT_DIR$/labs.html" />
+        <option value="$PROJECT_DIR$/../jessr new/service-single.html" />
+        <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/pharmacies.html" />
+        <option value="$PROJECT_DIR$/lab_reservation.html" />
+        <option value="$PROJECT_DIR$/single-product.html" />
+        <option value="$PROJECT_DIR$/medical_services.html" />
+        <option value="$PROJECT_DIR$/summary.html" />
+        <option value="$PROJECT_DIR$/doctors_appointments.html" />
+        <option value="$PROJECT_DIR$/doctor_consultation_online.html" />
+        <option value="$PROJECT_DIR$/chat.html" />
+        <option value="$PROJECT_DIR$/doctor_profile.html" />
+        <option value="$PROJECT_DIR$/js/new_js.js" />
+        <option value="$PROJECT_DIR$/../treatab en/about-us.html" />
+        <option value="$PROJECT_DIR$/header-with-searchinpit.html" />
+        <option value="$PROJECT_DIR$/css/new_css.css" />
+        <option value="$PROJECT_DIR$/social.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="new treatab 27-4-2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new treatab 27-4-2022" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new treatab 27-4-2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new treatab 27-4-2022" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\html\new treatab 17-3-2022" />
+      <recent name="G:\html\new treatab 17-3-2022\css" />
+      <recent name="G:\html\new treatab 17-3-2022\js" />
+      <recent name="G:\html\new treatab" />
+      <recent name="G:\html\new treatab\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa8e4b07-d718-491c-8132-2d30389e5fae" name="Default" comment="" />
+      <created>1636909956508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636909956508</updated>
+      <workItem from="1636909958349" duration="2623000" />
+      <workItem from="1636923461497" duration="11117000" />
+      <workItem from="1637121009295" duration="16776000" />
+      <workItem from="1637179068787" duration="623000" />
+      <workItem from="1644975148854" duration="501000" />
+      <workItem from="1644976008409" duration="15176000" />
+      <workItem from="1645045528920" duration="96000" />
+      <workItem from="1645321088181" duration="25978000" />
+      <workItem from="1645455560658" duration="605000" />
+      <workItem from="1645458388213" duration="13219000" />
+      <workItem from="1647524727676" duration="2772000" />
+      <workItem from="1647531941663" duration="13324000" />
+      <workItem from="1647810313626" duration="12486000" />
+      <workItem from="1648249970703" duration="2619000" />
+      <workItem from="1648559284183" duration="1081000" />
+      <workItem from="1649083328819" duration="46838000" />
+      <workItem from="1650138886004" duration="7564000" />
+      <workItem from="1650376635110" duration="5894000" />
+      <workItem from="1650462703153" duration="774000" />
+      <workItem from="1650484763711" duration="5989000" />
+      <workItem from="1650752758590" duration="8752000" />
+      <workItem from="1651026896155" duration="4208000" />
+      <workItem from="1651031620744" duration="4004000" />
+      <workItem from="1651115858154" duration="31000" />
+      <workItem from="1652025744147" duration="596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="203646000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="8" weight="0.32994923" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32994923" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/owl.carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shobhat/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8781">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter.html" />
+    <entry file="file://$PROJECT_DIR$/search_categories.html" />
+    <entry file="file://$PROJECT_DIR$/search_results.html" />
+    <entry file="file://$PROJECT_DIR$/../treatab en/single-product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6734">
+          <caret line="555" column="40" selection-start-line="555" selection-start-column="32" selection-end-line="555" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../treatab en/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2866" column="9" selection-start-line="2866" selection-start-column="6" selection-end-line="2866" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../treatab en/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../treatab en/filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_new1.html" />
+    <entry file="file://$PROJECT_DIR$/search_new2.html" />
+    <entry file="file://$PROJECT_DIR$/search_new3.html" />
+    <entry file="file://$PROJECT_DIR$/search_new.html" />
+    <entry file="file://$PROJECT_DIR$/search_new4.html" />
+    <entry file="file://$PROJECT_DIR$/../treatab en/add_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="425" column="23" lean-forward="true" selection-start-line="419" selection-start-column="15" selection-end-line="425" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../treatab en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="2060" column="50" lean-forward="true" selection-start-line="716" selection-end-line="2060" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa3176.3996/dropzone-main/src/preview-template.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa8996.39757/.env" />
+    <entry file="file://G:/laravel blogs/new_panda/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/laravel blogs/social/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dropzone.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9718" selection-end-column="9830" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa13136.22882/calendar-07/index.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa7064.14381/tooltip-title-tooltiper/example.html" />
+    <entry file="file://$PROJECT_DIR$/lab_summary.html" />
+    <entry file="file://$PROJECT_DIR$/../jessr new/service-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="1240" column="8" lean-forward="true" selection-start-line="1240" selection-start-column="8" selection-end-line="1240" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../new treatab before 17-3-2022/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../new treatab before 17-3-2022/search_categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14485">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/pharmacies.html" />
+    <entry file="file://$PROJECT_DIR$/online.html" />
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5428">
+          <caret line="542" column="38" selection-start-line="542" selection-start-column="38" selection-end-line="542" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single-product.html" />
+    <entry file="file://$PROJECT_DIR$/../new treatab before 17-3-2022/doctors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="704" column="19" lean-forward="true" selection-start-line="641" selection-start-column="12" selection-end-line="704" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation.html" />
+    <entry file="file://$PROJECT_DIR$/medical_services.html" />
+    <entry file="file://$PROJECT_DIR$/doctors_appointments.html" />
+    <entry file="file://$PROJECT_DIR$/doctor_consultation_online.html" />
+    <entry file="file://$PROJECT_DIR$/chat.html" />
+    <entry file="file://$PROJECT_DIR$/summary.html" />
+    <entry file="file://$PROJECT_DIR$/labs.html" />
+    <entry file="file://$PROJECT_DIR$/doctor_profile.html" />
+    <entry file="file://$PROJECT_DIR$/lab_reservation.html" />
+    <entry file="file://$PROJECT_DIR$/js/new_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13938">
+          <caret line="606" column="3" selection-start-line="606" selection-start-column="3" selection-end-line="606" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/AppServ/www/pegasus/wp-content/themes/hashone/template-parts/section-team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../treatab en/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctors.html" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5773">
+          <caret line="251" selection-start-line="251" selection-end-line="331" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18860">
+          <caret line="820" column="8" selection-start-line="820" selection-start-column="8" selection-end-line="820" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dropzone.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret column="78742" selection-start-column="78734" selection-end-column="78742" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-with-searchinpit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="436" column="23" selection-start-line="418" selection-start-column="15" selection-end-line="436" selection-end-column="23" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="1429" column="44" selection-start-line="1429" selection-start-column="40" selection-end-line="1429" selection-end-column="44" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

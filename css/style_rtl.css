@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+body {
+    font-family: 'Tajawal', sans-serif;
+   direction: rtl;
+}
+.owl-carousel{
+    direction: ltr;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    right: 0;
+    left: auto;
+    margin-top: .125rem;
+}
+.custom-menu .has-megasubmenu i{
+    transform: rotateY(180deg);
+}
+.User-Dropdown {
+    right: auto;
+    left: -9%;
+
+}
+.latest_offers .banner .btn {
+    right:auto;
+    left: 1em;
+}
+.card-body{
+    direction: rtl;
+}
+.save_icon {
+    right: auto!important;
+    left: 1.5em!important;
+}
+.doctors .card_images .doctor_icon , .pharmacies .card_images .pharmacy_icon ,  .botiques .card_images .botique_icon {
+
+    left: auto;
+    right: 1em;
+}
+.site-footer .social-icons {
+    text-align: left;
+}
+.megasubmenu.dropdown-menu .title{
+    text-align: center;
+}
+.about-info h4::before,.rating-container .filled-stars {
+    right: 0;
+    left: auto;
+}
+.addresses_tab .toggle-drop ,.cart_page .remove{
+    left: 0;
+    right: auto;
+}
+.cart_page aside {
+    float: left;
+}
+.cart_page input, .cart_page button, .cart_page .basket, .cart_page .basket-module, .cart_page .basket-labels, .cart_page .item, .cart_page .price, .cart_page .quantity, .cart_page .subtotal, .cart_page .basket-product, .cart_page .product-image, .cart_page .product-details {
+    float: right;
+}
+.cart_page .promo-code-cta {
+    font-size: 0.625rem;
+    margin-right: 0.625rem;
+}
+ul#category-tabs li a i {
+    right: auto;
+    left: 18px;
+}
+ul#category-tabs li input {
+    margin-right: 0;
+    margin-left: 0.5em;
+}
+.login-form input {
+    padding-right: 75px;
+    padding-left: auto;
+}
+.login-form .form-group .input-icon {
+    padding-left:auto;
+    padding-right: 35px;
+}
+.login-form form{
+    direction: ltr;
+}
+.login-form form input{
+    direction: rtl;
+}
+.login-form form *{
+    direction: rtl;
+}
+.modal-header .btn-close {
+    padding: .5rem .5rem;
+    margin: -.5rem auto -.5rem -.5rem ;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.p1-con , .recharge .form-top{
+    text-align: right;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: 1px;
+    right: auto;
+}
+.product-info .add_cart .btn.cart {
+    margin-right: 2em;
+    margin-left: auto;
+}
+.other_sellers i {
+    transform: rotateY(180deg);
+}
+.Card1 .description {
+    float: left;
+}
+.Card1 {
+    text-align: right;
+}
+.Card1 .description .seller_name {
+    float: right;
+}
+.Card1 .description p:after {
+    right: 0px;
+    left: auto;
+}
+.Card1 .details {
+    right: -100%;
+   left: auto;
+}
+.Card1 .description:before {
+    right: -15px;
+    left: -15px;
+}
+.Card1:hover .details {right: 0px;left: auto}
+.recharge .search-wrapper input{
+    float: right;
+}
+.recharge .search-wrapper button{
+    float: left;
+}
+.verify-section #form {
+    direction: rtl;
+}
+.my_wallet .txn-history ,.orders_page .table-wrapper > table th  {
+    text-align: right;
+}
+.my_wallet .debit-amount , .my_wallet .credit-amount {
+    float: left;
+}
+.cart_page .subtotal-title, .cart_page .subtotal-value, .cart_page .vat-title, .cart_page .vat-value, .cart_page .shipping-title, .cart_page .shipping-value, .cart_page .total-title, .cart_page .total-value, .cart_page .promo-title, .cart_page .promo-value {
+    color: #111;
+    float: right;
+    width: 50%;
+}
+.cart_page .subtotal-value, .cart_page .vat-value, .cart_page .shipping-value, .cart_page .total-value {
+    text-align: left;
+}
+.orders_page .full-sub-table figure img {
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+.orders_page .full-sub-table dd {
+    padding-left: 0em;
+    padding-right: 1em;
+}
+.orders_page .full-sub-table dd:before {
+    content: "*";
+    left: auto;
+    right: 0;
+}
+.single_order .prpoduct_figure img {
+    margin-left: 1.5rem;
+    margin-right:0;
+}
+.single_order .progressbar li:after {
+    left: auto;
+    right: -86%;
+
+}
+.single_order .progressbar li.active:after {
+    right: -161%;
+    left: auto;
+}
+.ps-5 {
+    padding-right: 3rem!important;
+}
