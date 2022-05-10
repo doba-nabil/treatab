@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>خير الله</title>
+       <meta name="description" content=""/>
+       <meta name="keywords" content=""/>
+       <meta charset="utf-8"/>
+       <meta name="author" content=""/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+       <!-- css files -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap.rtl.min.css"/>
+    </head>
+    <body>
+    <div style="font-family:'El Messiri', sans-serif ;" class="header">
+        <div class="container">
+            <div class="row">
+
+                <div class="logo col-md-3 col-xs-12">
+                   <img src="images/Group_68178.png" alt=""/>
+                </div>
+                   
+                  <div  class="form-group search col-md-6 col-xs-12">
+                      <input style="width: 450px !important; height: 49px !important;" class="form-control searchinput" type="search" placeholder="اكتب كلمة البحث هنا"/>
+                      <button class="ibtn" type="submit">
+                      <i style="font-size: 24px;" class="i1 fa fa-search"></i>
+                      </button>
+                  </div>
+
+                  <div class="myyicons col-md-3 col-xs-12">
+                    <i style="margin-left: 20px;" class="fa fa-user-circle"></i>
+            <i style="margin-left: 20px;" class="fa fa-envelope"></i>
+            <i class="fa fa-bell"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+      <!-- nab bar -->
+
+      <nav style="font-family: 'El Messiri', sans-serif;" class="navbar navbar-expand-lg navbar-light ">
+        <div class="mynavbar container-fluid">
+          <!-- <button class="mynavcolor navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <a class="mybars mynavcolor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="myfa fa fa-bars"></i>
+            </a>
+            <span class="departs">الاقسام</span>
+            <!-- <div class="mynavcolor collapse navbar-collapse" id="navbarSupportedContent"> -->
+              <!-- <ul class="mynavcolor navbar-nav me-auto mb-2 mb-lg-0"> -->
+                <!-- <li class="mybars nav-item dropdown"> -->
+                  
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                <!-- </li> -->
+              <!-- </ul> -->
+            <!-- </div> -->
+          <!-- </button> -->
+          <!-- <div class="mynavcolor collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="mynavcolor navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="mybars nav-item dropdown">
+                <a class="mybars mynavcolor nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="mybars fa fa-bars"></i> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div> -->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="mypages collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="mynavcolor nav-link active" aria-current="page" href="#">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="mynavcolor nav-link active" aria-current="page" href="#">من نحن</a>
+
+              </li>
+              
+              <li class="nav-item">
+                <a class="mynavcolor nav-link active" aria-current="page" href="#">المتجر</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="mynavcolor nav-link active" aria-current="page" href="#">العروض</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="mynavcolor nav-link active" aria-current="page" href="#">تواصل معنا</a>
+
+              </li>
+            </ul>
+            
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="mynum nav-item dropdown">
+                <a class="mynavcolor nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  En
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li style="margin-right: 25px;" class="myli">
+               <span class="myspan">
+                 <span>9562548598+</span>
+                <i class="myphone fa fa-phone-volume"></i>
+
+                </span>
+              </li>
+            </ul>
+            
+        </div>
+        </div>
+      </nav>
+         
+      <!-- before store -->
+
+      <div style="font-family: 'El Messiri', sans-serif; padding: 10px;" class="container">
+          <div class="row">
+              <div>
+              <span style="color:#6D6E71;">الرئيسية</span>
+              <i style="color: #060055;" class="fa fa-angle-left"></i>
+              <span style="color: #060055;">البحث</span>
+              </div>
+          </div>
+      </div>
+      <hr style="margin-bottom: 40px;"/>
+
+      <div style="font-family: 'El Messiri', sans-serif;" class=" container">
+        <div class="headercolor">
+        
+                <div class="row">
+                    <div class="col-md-4">
+                        <p style="height: 100%;margin-bottom: 0; margin-top: 10px;">
+                            <i style="font-size: 30px; color: #3E3E3E;" class="fas fa-sliders-h"></i>
+                            <span class="ss2" style="color: #3E3E3E;vertical-align: super;">عرض التصفية</span>
+                        </p>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <p style="height: 100%;margin-bottom: 0 ; margin-top: 10px;">
+                            <span style="color: #1A1A1A; font-weight: bold;">نتائج البحث : </span>
+                            <span style="color: #FB2B00; font-weight: bold;"> 25 عنصر </span>
+                        </p>
+                    </div>
+        
+                    <div class="col-md-4">
+                      <div class="row">
+                          <div class="col-md-6">
+                              
+                                    <div class="class-name">
+    
+                                    </div>
+                                    
+                                    <div id="mySidenav" class="sidenav">
+                                      
+                                          <div style="margin-bottom: 5%;" class="row">
+                                            <a style="display: inline-block; width: 20px !important; margin-right: 30%; font-size: 15px;" href="#">التصفية</a>
+                                         <a style="display: inline-block; width: 20px !important; font-size: 25px;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+                                         </div>
+                                            <div class="col-md-12">
+                                              <div class="myinputs">
+                                                <div class="input-icons">
+                                                    <i style="position: absolute; z-index: 10; margin-top: 13px; margin-left: 10px;" class="fa fa-search icon"></i>
+                                                    <input  style="position: relative; text-align: right !important;" class="form-control input-field" type="search" placeholder="...ابحث">
+                                                </div>
+                                                <div class="input1 col-md-12" style="display: inline-block;">
+                                                    <h6 style="color: #060055;">نوع السياره</h6>
+                                                  <i class=" imin fas fa-minus"></i>
+                                                </div>
+                                                <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                                                  <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                                                <span >اسم السيارة</span>  
+                                                <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                                                </p>
+                                            </div>
+                                            <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                                              <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                                            <span >اسم السيارة</span>  
+                                            <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                                            </p>
+                                        </div>
+                                        <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                                          <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                                        <span >اسم السيارة</span>  
+                                        <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                                        </p>
+                                    </div>
+                                    <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                                      <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                                    <span >اسم السيارة</span>  
+                                    <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                                    </p>
+                                </div>
+                                <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                                  <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                                <span >اسم السيارة</span>  
+                                <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                                </p>
+                            </div>
+                            <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                              <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                            <span >اسم السيارة</span>  
+                            <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                            </p>
+                        </div> 
+    
+    
+                                      
+                                      <div class="input1 col-md-12" style="display: inline-block;">
+                                        <h6 style="color: #060055;">موديل السياره</h6>
+                                      <i class=" imin fas fa-minus"></i>
+                                    </div>
+                                    <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                                      <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                                    <span >موديل السيارة</span>  
+                                    <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                                    </p>
+                                </div>
+                                <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                                  <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                                <span >موديل السيارة</span>  
+                                <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                                </p>
+                            </div>
+                            <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                              <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                            <span >موديل السيارة</span>  
+                            <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                            </p>
+                        </div>
+                        <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                          <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                        <span >موديل السيارة</span>  
+                        <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                        </p>
+                    </div>
+                    <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                      <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                    <span >موديل السيارة</span>  
+                    <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                    </p>
+                </div>
+                <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+                  <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+                <span >موديل السيارة</span>  
+                <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+                </p>
+            </div>
+                                             
+    
+            <div class="input1 col-md-12" style="display: inline-block;">
+              <h6 style="color: #060055;">سنة الصنع</h6>
+            <i class=" imin fas fa-minus"></i>
+          </div>
+          <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+            <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+          <span >سنة الصنع</span>  
+          <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+          </p>
+      </div>
+      <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+        <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+      <span >سنه الصنع</span>  
+      <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+      </p>
+    </div>
+    <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+    <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+    <span >سنة الصنع</span>  
+    <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+    </p>
+    </div>
+    <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+    <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+    <span >سنة الصنع</span>  
+    <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+    </p>
+    </div>
+    <div class="input2" style="border-bottom: 1px solid #B5B5B5;">
+    <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+    <span >سنة الصنع</span>  
+    <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+    </p>
+    </div>
+    <div class="input2">
+    <p style="margin-bottom: 10px !important; color: #3E3E3E;">
+    <span >سنة الصنع</span>  
+    <input style="margin-top: 5px;" class="slideinputs" type="radio"/> 
+    </p>
+    </div>
+                            
+    
+    
+            
+    
+            
+                                                
+                                                
+                                                <br/>
+                                                <h5 style="color: #060055;">سعر الطلب</h5>
+                      <div class="rSlider">
+                        <span class="slide"></span>
+                      <input id="range" type="range" min="0" max="2000" >
+                      </div>
+                      <span id="demo"></span>
+                      <div class="rangespans">
+                        <span class="span1">0</span>
+                        <span class="span2">500</span>
+                        <span class="span3">2000</span>
+                      
+                      </div>
+    
+                      <button style="text-align: center; margin: 25% 4%; width: 200px; padding: 10px; color: #000000; font-weight: bold;
+                      border-radius: 5px;">تصفية</button>
+                      </div>
+                      </div>
+    
+                                      </div>
+                                      
+                                      
+                                
+                                 
+                                  <div style="direction: ltr;">
+                              <span style="text-align: left;" onclick="openNav()"> <i class="mynewicon fa fa-bars"></i> </span>
+                                </div>
+                                  </div>
+                
+                    <div  class="col-md-6">
+                      <select class="form-select">
+                          <option>الكل</option>
+                          <option>الاكثر طلبا</option>
+                          <option>العروض</option>
+                      </select>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+        
+        </div>
+        </div>
+      <!-- products -->
+
+    
+
+      <div style="font-family: 'El Messiri', sans-serif;" class="products">
+        <div class="container">
+          <div class="row">
+            
+              
+              
+              <div  class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                  <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                  <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                  <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                  </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div  class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="ppimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="discount">
+                   <div class="discount-text">
+                     <span>جديد</span>
+                   </div>
+                </div>
+                </div>
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div  class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="ppimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="discount">
+                   <div class="discount-text">
+                     <span>جديد</span>
+                   </div>
+                </div>
+                </div>
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+                
+              <div  class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div  class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div  class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+
+              <div  class="col-md-3">
+                <div style="border: 2px solid #707070;" class="overflow productitem">
+                  <div class="pimgdiv">
+                <img src="images/engine1-1024x775-removebg-preview.png"/>
+                <div class="overlay2">
+                  <div class="overlayinfo">
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class="fa fa-share-alt-square"></i>
+                    <i style="background-color: #fff;color: #FB2B00;font-size: 30px;border-radius: 50px;" class=" fa fa-arrow-right"></i>
+                    <i style="background-color: #fff;color:#FB2B00;font-size: 30px;border-radius: 50px;margin: 0 15px;" class=" far fa-heart"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <h6>اسم المنتج يكتب هنا</h6>
+                <span class="span1">
+                  5
+                <i style="color: #FFC107;" class=" mystar fa fa-star"></i>
+                </span>
+                <div class="clear"></div>
+                </div>
+                <hr/>
+                <p>هناك حقيقه مثبتة منذ زمن طويل وهى ان المحتوى المقروء
+                  لصقحة ما سينهي القارئ عن التركيز على الشكل الخارجي للنص
+                </p>
+                <span style="color: #FB2B00;">505 ريال</span>
+                <br/>
+                <!-- <hr/> -->
+                <button class="productbtn">اضف الى السلة</button>
+              </div>
+              </div>
+             
+              
+          
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+       <!-- map -->
+    
+                
+          <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
+              <div style="margin: 120px 0 40px 0;" class="map col-md-12">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                   src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                   frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a>
+                   <br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net">
+                </a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div></div>
+              </div>
+            <!-- </div> -->
+          <!-- </div> -->
+
+
+          <!-- footer -->
+          <footer style="font-family:'El Messiri', sans-serif ;">
+            <div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li style="margin-bottom: 10px;">
+                      <img style="width: 50%;" src="images/Group_68178.png"/>
+                    </li>
+                    <li><p class="col-md-12" style="color: black;">وعند موافقة العميل المبدئية علي التصميم يتم ازالة هذا النص ووضع النص الاصلي</p></li>
+                    <li><ul class="socialicons">
+                      <li style="background-color: #F9F9F9; margin: 0 0 0 5px; border-radius: 50px; padding: 5px;"><i class="fab fa-instagram"></i></li>
+                      <li style="background-color: #F9F9F9; margin:0 0 0 5px; border-radius: 50px; padding: 5px;"><i class="fab fa-twitter"></i></li>
+                      <li style="background-color: #F9F9F9; margin:0 0 0 5px; border-radius: 50px; padding: 5px;"><i class="fab fa-facebook-f"></i></li>
+                      <li style="background-color: #F9F9F9; margin:0 0 0 0; border-radius: 50px; padding: 5px;"><i class="fab fa-whatsapp"></i></li>
+                    </ul></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="footerh5" style="color: #060055;">معلومات</h5>
+                  <ul class="footerul">
+                    <li style="margin: 15px 0;">من نحن</li>
+                    <li style="margin: 15px 0;">الشروط و الاحكام</li>
+                    <li style="margin: 15px 0;">الشحن والتوصيل</li>
+                    <li style="margin: 15px 0;">سياسات الخصوصية</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="footerh5" style="color: #060055;">خدمة العملاء</h5>
+                  <ul class="footerul">
+                    <li style="margin: 15px 0;">تواصل معنا</li>
+                    <li style="margin: 15px 0;">ارجاع الطلب</li>
+                    <li style="margin: 15px 0;">الغاء الطلب</li>
+                  </ul>
+                </div>
+                <div class=" col-md-3">
+                  <h5 class="footerh5" style="color: #060055;">اضافات</h5>
+                  <ul class="footerul">
+                    <li style="margin: 15px 0;">الشركات</li>
+                    <li style="margin: 15px 0;">اقسام الهداية</li>
+                    <li style="margin: 15px 0;">العروض المميزة</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <p class="lastfooter">جميع الحقوق محقوظة لموقع الجار الله لقطع غيار السيارات | سمارت فيجن للتصميم والبرمجة</p>
+
+          </div>
+          </footer>
+  
+
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+  
+       <script type="text/javascript">
+         $(document).ready(function(){
+ 
+           $('.ulslider').slick({
+   // dots: true,
+   infinite: true,
+   speed: 700,
+   autoplay:false,
+   autoplaySpeed: 2000,
+   arrows:true,
+   centerMode:true,
+   slidesToShow: 6,
+   slidesToScroll: 2
+});
+
+$('.uloffers').slick({
+   // dots: true,
+   infinite: true,
+   speed: 700,
+   autoplay:false,
+   autoplaySpeed: 2000,
+   arrows:true,
+   centerMode:true,
+   slidesToShow: 4,
+   slidesToScroll: 2,
+   prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+   nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+});
+
+
+
+         });
+
+               
+         $(window).on("load", function(){ 
+ var range = $("#range").attr("value");
+ $("#demo").html(range);
+ $(".slide").css("width", "50%");
+ $(document).on('input change', '#range', function() {
+   $('#demo').html( $(this).val() );
+   var slideWidth = $(this).val() * 100 / 2000;
+   
+   $(".slide").css("width", slideWidth + "%");
+});
+});
+       </script>
+       <script>
+           /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+           function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+$('#mySidenav').show(100);
+
+$(".class-name").show();
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+$('#mySidenav').hide(100);
+
+$(".class-name").hide();
+
+}
+       </script>
+     </body>
+</html>
