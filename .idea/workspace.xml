@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa8e4b07-d718-491c-8132-2d30389e5fae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/new_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/new_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doctor_consultation_online.html" beforeDir="false" afterPath="$PROJECT_DIR$/doctor_consultation_online.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doctors_appointments.html" beforeDir="false" afterPath="$PROJECT_DIR$/doctors_appointments.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_css.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new_css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/new_css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="3965" column="17" selection-start-line="3965" selection-start-column="17" selection-end-line="3965" selection-end-column="17" />
+            <state relative-caret-position="84">
+              <caret line="3955" column="13" lean-forward="true" selection-start-line="3955" selection-start-column="13" selection-end-line="3964" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -37,14 +34,19 @@
       <file leaf-file-name="price_plans.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/price_plans.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="572" column="21" selection-start-line="572" selection-start-column="21" selection-end-line="572" selection-end-column="21" />
+            <state relative-caret-position="-2281">
+              <caret line="558" column="34" selection-start-line="558" selection-start-column="34" selection-end-line="558" selection-end-column="34" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#main#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://C:/AppServ/www/adell/.htaccess">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -138,8 +140,8 @@
         <option value="$PROJECT_DIR$/send_report.html" />
         <option value="$PROJECT_DIR$/search_pharmacy.html" />
         <option value="$PROJECT_DIR$/search-product-pharmacy-2.html" />
-        <option value="$PROJECT_DIR$/price_plans.html" />
         <option value="$PROJECT_DIR$/css/new_css.css" />
+        <option value="$PROJECT_DIR$/price_plans.html" />
       </list>
     </option>
   </component>
@@ -180,7 +182,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/laravel blogs/new_panda" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -242,12 +244,12 @@
       <workItem from="1651115858154" duration="31000" />
       <workItem from="1652025744147" duration="596000" />
       <workItem from="1652064617158" duration="901000" />
-      <workItem from="1652146515225" duration="20497000" />
+      <workItem from="1652146515225" duration="35220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225044000" />
+    <option name="totallyTimeSpent" value="239767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -309,13 +311,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../treatab en/filter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search_new1.html" />
     <entry file="file://$PROJECT_DIR$/search_new2.html" />
     <entry file="file://$PROJECT_DIR$/search_new3.html" />
@@ -480,31 +475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="623" column="18" lean-forward="true" selection-start-line="614" selection-start-column="12" selection-end-line="623" selection-end-column="18" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="251" selection-start-line="251" selection-end-line="331" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doctors_appointments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="599" column="38" lean-forward="true" selection-start-line="572" selection-start-column="31" selection-end-line="599" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,10 +587,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/new_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3955" column="13" lean-forward="true" selection-start-line="3955" selection-start-column="13" selection-end-line="3964" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctors_appointments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="599" column="38" lean-forward="true" selection-start-line="572" selection-start-column="31" selection-end-line="599" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="623" column="18" lean-forward="true" selection-start-line="614" selection-start-column="12" selection-end-line="623" selection-end-column="18" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/price_plans.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="572" column="21" selection-start-line="572" selection-start-column="21" selection-end-line="572" selection-end-column="21" />
+        <state relative-caret-position="-2281">
+          <caret line="558" column="34" selection-start-line="558" selection-start-column="34" selection-end-line="558" selection-end-column="34" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#main#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -624,12 +626,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/new_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="3965" column="17" selection-start-line="3965" selection-start-column="17" selection-end-line="3965" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://C:/AppServ/www/adell/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
