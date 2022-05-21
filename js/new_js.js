@@ -605,3 +605,13 @@ $('.follow').click(function(){
 $(function(){
     var gallery = $('.gallery a').simpleLightbox({navText:    ['&lsaquo;','&rsaquo;']});
 });
+
+jQuery(document).ready(function(){
+    jQuery('.titleWrapper').click(function(){
+        var toggle = jQuery(this).next('div.desWrapper');
+        jQuery(toggle).slideToggle("slow");
+    });
+    jQuery('.inactive').click(function(){
+        jQuery(this).toggleClass('inactive active');
+    });
+});

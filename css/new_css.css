@@ -3814,7 +3814,7 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
 } */
 .send-report .clinic_services .desWrapper {
     background: #fff;
-    max-height: 500px;
+    /*max-height: 500px;*/
     display: none;
     padding: 20px;
     transition: max-height 1s ease-in;
@@ -4067,3 +4067,213 @@ display: flex;
     margin: 1em 0;
 }
 /* end price plans  */
+/*dropzone*/
+.dz-message {
+    margin: 0!important;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.dropzone .dz-preview .dz-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dropzone{
+    border: 2px dashed rgba(157, 157, 162,0);
+    min-height: auto;
+}
+.dropzone b{
+    font-size: 10px;
+}
+.dropzone:hover{
+    background: rgba(157, 157, 162,0.08);
+}
+.dz-remove{
+    color: darkred;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.dropzone .dz-preview .dz-remove:hover{
+    color: #037979;
+    text-decoration: none!important;
+}
+.dropzone .dz-preview .dz-error-message {
+    top: 150px!important;
+}
+/*end dropzone*/
+/*start report details page*/
+.prescription_image{
+
+}
+.prescription_image .fotorama{
+    text-align: center;
+}
+.prescription_image .fotorama .fotorama__wrap{
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+}
+/*end report details page*/
+/*start conversations page*/
+.conversations{
+    margin-bottom: 2em;
+}
+.conversations .card{
+    background: #fff;
+    border-radius:10px;
+    overflow:hidden;
+}
+.conversations .card__item a{
+    display: flex;
+    align-items:center;
+    padding:14px;
+    cursor:pointer;
+    transition: 0.5s;
+    border-bottom: 1px solid #b9b9c14d;
+}
+.conversations .card__item:last-child a{
+    border-bottom: none;
+}
+
+
+.conversations .card__item.unread a{
+    background: rgba(3, 121, 121, 0.05);
+}
+.conversations .card__item a:hover{
+    background: #b9b9c14d;
+}
+.conversations .card__item img{
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-right: 12px;
+}
+.conversations .card__item-info{
+    overflow:hidden;
+    flex:1;
+    display: flex;
+    position:relative;
+}
+.conversations h3{
+    font-size:14px;
+    font-weight:bolder;
+    color: black;
+    padding-top: 1em;
+}
+.conversations p{
+    color: #6d6f78;
+    font-size:12px;
+
+}
+.conversations .card__item-info__meta{
+    margin-left: auto;
+}
+.conversations .card__item-info__meta p{
+    font-size:10px;
+}
+.conversations span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius:50%;
+    background:#036e6e;
+    font-size:10px;
+    font-weight:600;
+    color:#fff;
+    display: grid;
+    place-content:center;
+}
+/*end conversations page*/
+/*start Electronic Prescription page*/
+.electronic_prescription{
+    background: #ffffff!important;
+}
+.electronic_prescription .pharmacy_change_btn .btn{
+    float: right;
+    margin: 0;
+    background: transparent;
+    color: white;
+    display: inline-block;
+    background: #037979;
+    padding: 0.5em 0;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid rgba(3, 121, 121, 0.69);
+    padding:0.5em 1em;
+    border-radius: 10px;
+}
+.electronic_prescription .pharmacy_change_btn .btn:hover {
+    background: #ffffff;
+    border: 1px solid rgba(3, 121, 121, 0.74);
+    color: #037979;
+}
+
+
+.electronic_prescription .product-card .card-body {
+    display: flex;
+    justify-content: space-between;
+}
+.electronic_prescription .product-block{
+    width: 100%;
+}
+
+.electronic_prescription .product-block img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+.electronic_prescription .product-block p {
+    color: #000000DE;
+}
+.send-report .product-block p.desc {
+    padding-top: 0.7em;
+    font-weight: bold;
+}
+.electronic_prescription .product-block p b {
+    color: rgba(96, 96, 96, 0.87);
+}
+.electronic_prescription .product-card .delete-product i{
+    font-size: 20px;
+    color: darkred;
+    transition: 0.5s;
+}
+.electronic_prescription .product-card .delete-product i:hover{
+    transform: scale(1.1);
+}
+.electronic_prescription ul {
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.electronic_prescription input[type="checkbox"] {
+    display: none;
+}
+
+.electronic_prescription label {
+    cursor: pointer;
+}
+
+.electronic_prescription label img {
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+.electronic_prescription  :checked + label  .card{
+    border:2px solid #037979 ;
+}
+.electronic_prescription  :checked + label img {
+    transform: scale(0.9);
+    z-index: -1;
+}
+/*end Electronic Prescription page*/
