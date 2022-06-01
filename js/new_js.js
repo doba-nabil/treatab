@@ -426,7 +426,13 @@ $(document).ready(function() {
 
 $(document).ready(function () {
     var h = $('.header').height();
-    $('.main_slider').css({height: 'calc(80vh - ' + h + 'px)'});
+    if ($(window).width() < 960) {
+        $('.main_slider').css({height: 'calc(60vh - ' + h + 'px)'});
+    }
+    else {
+        $('.main_slider').css({height: 'calc(80vh - ' + h + 'px)'});
+
+    }
 });
 
 $(document).ready(function(){

@@ -4,7 +4,7 @@ $(document).ready(function() {
         loop:true,
         nav:true,
         dots:true,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:2000,
         animateOut: 'fadeOut',
         responsive:{

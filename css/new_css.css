@@ -4303,6 +4303,11 @@ display: flex;
     object-fit: cover;
 }
 @media all and (max-width: 992px) {
+    .title_btn .btn{
+        width: 100px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
     .status p{
         width: 100%;
         overflow: hidden;
@@ -4315,7 +4320,7 @@ display: flex;
         font-size: 10px;
     }
     .doctors .card-text, .pharmacies .card-text ,.botiques .card-text {
-        height: 130px;
+        /*height: 130px;*/
         overflow: hidden;
         font-size: 10px;
     }
@@ -4353,8 +4358,56 @@ display: flex;
     .card-bottom-info{
         margin-top: 1em;
     }
+    .pharmacies .owl-dots, .botiques .owl-dots, .doctors .owl-dots{
+        margin-top: 0.5em!important;
+        width: 100%!important;
+        margin-left: 0!important;
+    }
+    .pharmacies .owl-item, .botiques .owl-item, .doctors .owl-item{
+        display: block;
+    }
+    .card img.card-img-top2 {
+        object-fit: contain;
+        object-position: center;
+        height: 150px;
+    }
+    .card img.card-img-top2 {
+        object-fit: contain;
+        object-position: center;
+        height: 150px;
+    }
+    .main_slider .item .item-desc{
+        width: 100%!important;
+        padding: 0 3em!important;
+        margin-left: 0!important;
+    }
 }
 @media all and (max-width: 450px) {
+    .main_slider .owl-dots{
+        margin-left: 0!important;
+        width: 100%;
+        left: 0!important;
+        bottom: 0;
+    }
+    .main_slider .item .item-desc h2{
+        font-size: 12px!important;
+    }
+    .main_slider .item .item-desc p{
+        font-size: 11px!important;
+    }
+    .main_slider .owl-nav{
+        bottom: 0;
+        width: 100%!important;
+    }
+    .main_slider.owl-theme .owl-nav [class*=owl-]{
+        padding: 0!important;
+    }
+    .owl-carousel .owl-item img{
+        object-fit: contain!important;
+    }
+    .botiques .card_images{
+        height: 15em!important;
+    }
     .main_slider .owl-nav{
         margin-left:0 ;
     }
@@ -4449,4 +4502,9 @@ display: flex;
 .botiques .card,
 .doctors .owl-item .card{
     height: 100%!important;
+}
+
+
+.owl-nav{
+    max-width: 100% !important;
 }
