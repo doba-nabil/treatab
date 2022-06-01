@@ -39,6 +39,7 @@ $(document).ready(function() {
             }
         }
     });
+
     $('.doctors_slider').owlCarousel({
         navText:['<i class="las la-angle-left fa-2x"></i>','<i class="las la-angle-right fa-2x"></i>'],
         loop:false,
@@ -46,13 +47,14 @@ $(document).ready(function() {
         dots:true,
         margin:20,
         autoplay:true,
+        autoHeight: false,
         autoplayTimeout:2000,
         responsive:{
             0:{
-                items:2
+                items:1
             },
             600:{
-                items:3
+                items:2
             },
             1000:{
                 items:4
@@ -69,10 +71,10 @@ $(document).ready(function() {
         autoplayTimeout:2000,
         responsive:{
             0:{
-                items:2
+                items:1
             },
             600:{
-                items:3
+                items:2
             },
             1000:{
                 items:4
@@ -89,10 +91,10 @@ $(document).ready(function() {
         autoplayTimeout:2000,
         responsive:{
             0:{
-                items:2
+                items:1
             },
             600:{
-                items:3
+                items:2
             },
             1000:{
                 items:4
