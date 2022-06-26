@@ -2935,8 +2935,8 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
 }
 
 .pharmacies .save_icon {
-    right: 1em !important;
-    left: auto !important;
+    /*right: 1em !important;*/
+    /*left: auto !important;*/
 }
 
 /*end pharmacies page*/
@@ -4390,10 +4390,10 @@ display: flex;
         bottom: 0;
     }
     .main_slider .item .item-desc h2{
-        font-size: 12px!important;
+        font-size: 10px!important;
     }
     .main_slider .item .item-desc p{
-        font-size: 11px!important;
+        font-size: 9px!important;
     }
     .main_slider .owl-nav{
         bottom: 0;
@@ -4415,7 +4415,7 @@ display: flex;
         margin-left:-2em ;
     }
     .navbar-brand {
-        width: 47px;
+        width: 3em;
         height: auto;
         padding-top: 0;
         padding-bottom: 0;
@@ -4507,4 +4507,40 @@ display: flex;
 
 .owl-nav{
     max-width: 100% !important;
+}
+/*new edit*/
+.card .card_images img{
+    max-height: 200px!important;
+    max-width: 100%!important;
+    object-fit: contain;
+}
+
+/**/
+/**** fixed navbar ****/
+
+nav.shrink {
+    background-color: #03797940;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5), 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    transition: 1s;
+    position: fixed;
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+    z-index: 999999999;
+    border-bottom: 3px #037979 solid;
+    padding: 0.3em 0;
+
+}
+nav.shrink .navbar-brand {
+    width: 90px;
+    height: 20px;
+}
+nav.shrink .User-Dropdown {
+    top: 4em!important;
+}
+nav.shrink .dropdown-menu[data-bs-popper] {
+    top: 90%!important;
+}
+nav.shrink #navbarSupportedContent {
+    justify-content:space-between;
 }

@@ -9,7 +9,9 @@ $(document).ready(function() {
         animateOut: 'fadeOut',
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:false,
+                dots:false,
             },
             600:{
                 items:1
@@ -29,7 +31,9 @@ $(document).ready(function() {
         autoplayTimeout:5000,
         responsive:{
             0:{
-                items:3
+                items:3,
+                nav:false,
+                dots:false,
             },
             600:{
                 items:4
@@ -51,7 +55,9 @@ $(document).ready(function() {
         autoplayTimeout:2000,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:false,
+                dots:false,
             },
             600:{
                 items:2
@@ -71,7 +77,9 @@ $(document).ready(function() {
         autoplayTimeout:2000,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:false,
+                dots:false,
             },
             600:{
                 items:2
@@ -91,7 +99,9 @@ $(document).ready(function() {
         autoplayTimeout:2000,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:false,
+                dots:false,
             },
             600:{
                 items:2

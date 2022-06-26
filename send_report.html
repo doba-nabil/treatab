@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/responsive.css"/>
     <style>
         .dz-message {
-            margin: 0!important;
+            margin: 0 !important;
             padding: 0;
             border-radius: 5px;
         }
@@ -34,27 +34,33 @@
             height: 100%;
             object-fit: cover;
         }
-        .dropzone{
-            border: 2px dashed rgba(157, 157, 162,0);
+
+        .dropzone {
+            border: 2px dashed rgba(157, 157, 162, 0);
             min-height: auto;
         }
-        .dropzone b{
+
+        .dropzone b {
             font-size: 10px;
         }
-        .dropzone:hover{
-            background: rgba(157, 157, 162,0.08);
+
+        .dropzone:hover {
+            background: rgba(157, 157, 162, 0.08);
         }
-        .dz-remove{
+
+        .dz-remove {
             color: darkred;
             font-weight: bolder;
             text-decoration: none;
         }
-        .dropzone .dz-preview .dz-remove:hover{
+
+        .dropzone .dz-preview .dz-remove:hover {
             color: #037979;
-            text-decoration: none!important;
+            text-decoration: none !important;
         }
+
         .dropzone .dz-preview .dz-error-message {
-            top: 150px!important;
+            top: 150px !important;
         }
     </style>
     <!--[if lt IE 9]>
@@ -666,7 +672,9 @@
                                                                             <form>
                                                                                 <textarea rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis sit amet ante vitae dictum. Duis dignissim leo at viverra cursus. Phasellus egestas nibh ac nisi ullamcorper cursus. Orci varius natoque penatibus et.</textarea>
                                                                                 <div class="btns">
-                                                                                    <button class="btn btn-primary save-btn" type="submit">Save</button>
+                                                                                    <button class="btn btn-primary save-btn"
+                                                                                            type="submit">Save
+                                                                                    </button>
                                                                                     <a class="btn btn-danger delete-btn">Delete</a>
                                                                                 </div>
                                                                             </form>
@@ -692,14 +700,17 @@
                                                                                         <div class="product-block">
                                                                                             <img src="imgs/product.png">
                                                                                             <p class="desc">
-                                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                                                Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit.
                                                                                             </p>
                                                                                             <p class="qty">
                                                                                                 <b>Quantity:</b>
                                                                                                 1
                                                                                             </p>
                                                                                         </div>
-                                                                                        <a href="#" class="delete-product">
+                                                                                        <a href="#"
+                                                                                           class="delete-product">
                                                                                             <i class="las la-trash"></i>
                                                                                         </a>
                                                                                     </div>
@@ -710,14 +721,17 @@
                                                                                         <div class="product-block">
                                                                                             <img src="imgs/product.png">
                                                                                             <p class="desc">
-                                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                                                Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit.
                                                                                             </p>
                                                                                             <p class="qty">
                                                                                                 <b>Quantity:</b>
                                                                                                 1
                                                                                             </p>
                                                                                         </div>
-                                                                                        <a href="#" class="delete-product">
+                                                                                        <a href="#"
+                                                                                           class="delete-product">
                                                                                             <i class="las la-trash"></i>
                                                                                         </a>
                                                                                     </div>
@@ -726,8 +740,11 @@
                                                                             </div>
 
                                                                             <div class="btns">
-                                                                                <button class="btn btn-primary save-btn" type="submit">Save</button>
-                                                                                <a class="btn btn-primary new-btn" type="submit">Add New</a>
+                                                                                <button class="btn btn-primary save-btn"
+                                                                                        type="submit">Save
+                                                                                </button>
+                                                                                <a class="btn btn-primary new-btn"
+                                                                                   type="submit">Add New</a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -745,16 +762,21 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="desWrapper">
-                                                                            <div style="text-align: center;" class="dropzone" id="multipleFileUpload">
+                                                                            <div style="text-align: center;"
+                                                                                 class="dropzone"
+                                                                                 id="multipleFileUpload">
                                                                                 <div class="dz-message" data-dz-message>
-                                                                                    <b style="font-size: 15px" class="text-success">
+                                                                                    <b style="font-size: 15px"
+                                                                                       class="text-success">
                                                                                         Upload Prescription
                                                                                     </b>
                                                                                 </div>
                                                                             </div>
                                                                             <hr>
                                                                             <div class="btns">
-                                                                                <button class="btn btn-primary save-btn" type="submit">Save</button>
+                                                                                <button class="btn btn-primary save-btn"
+                                                                                        type="submit">Save
+                                                                                </button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -867,16 +889,6 @@
 <script src="js/js.js"></script>
 <script src="js/new_js.js"></script>
 <script>
-    jQuery(document).ready(function(){
-        jQuery('.titleWrapper').click(function(){
-            var toggle = jQuery(this).next('div.desWrapper');
-            jQuery(toggle).slideToggle("slow");
-        });
-        jQuery('.inactive').click(function(){
-            jQuery(this).toggleClass('inactive active');
-        });
-    });
-
     Dropzone.autoDiscover = false;
     $(document).ready(function () {
         var myDropzone = new Dropzone("#multipleFileUpload",
@@ -902,8 +914,6 @@
                     });
                 }
             });
-
-
     });
 </script>
 </body>

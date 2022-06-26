@@ -138,8 +138,9 @@ nav li a {
     object-fit: cover;
 }
 .card .card_images {
-    height: 100%;
+    /*height: 100%;*/
 }
+
 
 .card:hover img.card-img-top {
     /*filter: grayscale(1) blur(2px);*/
