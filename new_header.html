@@ -397,39 +397,46 @@
                 <img src="imgs/logo.png" alt="Logo">
             </a>
             <div class="dropdown lang">
-                <a style="padding-top: 0;padding-bottom: 0" class="btn" type="button" id="dropdownMenuButton1"
-                   data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="imgs/en.png" alt="english">
-                    <i class="las la-angle-down"></i>
+                <a href="#" style="padding-top: 0;padding-bottom: 0" class="btn">
+                    <!--<img src="imgs/en.png" alt="english">-->
+                    <img src="imgs/ar.png" alt="arabic">
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            <img src="imgs/en.png" alt="english">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            <img src="imgs/ar.png" alt="arabic">
-                        </a>
-                    </li>
-                </ul>
+            </div>
+            <div class="nav-item d-block d-md-none">
+                <div class="User-area">
+                    <div class="User-avtar">
+                        <img src="imgs/147144.png"/>
+                    </div>
+                    <ul class="User-Dropdown">
+                        <li><a href="#">My Wallet</a></li>
+                        <li><a href="#">Notifications <span>40</span> </a></li>
+                        <li><a href="#">My Schedule</a></li>
+                        <li><a href="#">My Purchases</a></li>
+                        <li><a href="#">My Reservations</a></li>
+                        <li><a href="#">Booking Requests</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">My Lacation</a></li>
+                        <li><a href="#">Verified the Mobile Number</a></li>
+                        <li><a href="#">Verified the Email</a></li>
+                        <li><a class="text-danger" href="#">Logout</a></li>
+                    </ul>
+                </div>
             </div>
             <div class=" navbar-collapse" id="navbarSupportedContent">
                 <form class="search-wrapper-form cf">
                     <div class="search-wrapper">
-                       <div style="width: 100%">
-                           <input type="search" type="text" placeholder="Search by product"
-                                  class="form-control me-2" aria-label="Search" required style="box-shadow: none">
-                           <select class="form-control">
-                               <option value="" hidden selected>Click To Choose</option>
-                               <option value="opt1">Option 1</option>
-                               <option value="opt2">Option 2</option>
-                               <option value="opt3">Option 3</option>
-                               <option value="opt4">Option 4</option>
-                               <option value="opt5">Option 5</option>
-                           </select>
-                       </div>
+                        <div style="width: 100%">
+                            <input type="search" type="text" placeholder="Search by product"
+                                   class="form-control me-2" aria-label="Search" required style="box-shadow: none">
+                            <select class="form-control">
+                                <option value="" hidden selected>Click To Choose</option>
+                                <option value="opt1">Option 1</option>
+                                <option value="opt2">Option 2</option>
+                                <option value="opt3">Option 3</option>
+                                <option value="opt4">Option 4</option>
+                                <option value="opt5">Option 5</option>
+                            </select>
+                        </div>
                         <button class="btn" type="submit">
                             <i class="las la-search"></i>
                         </button>
@@ -439,7 +446,8 @@
                     <li class="nav-item">
                         <div class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="las la-calendar-day"></i>
+                                <!--<i class="las la-calendar-day"></i>-->
+                                <img src="imgs/schdual.svg" alt=""/>
                                 <span class="item_name">Reservations</span>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -497,7 +505,8 @@
                     <li>
                         <a class="nav-link" style="cursor: pointer" id="not" href="#">
                             <abbr>
-                                <i class="lar la-bell"></i>
+                                <!--<i class="lar la-bell"></i>-->
+                                <img src="imgs/notification.svg" alt=""/>
                                 <span class="badge">3</span>
                             </abbr>
                             <span class="item_name">Notifications</span>
@@ -507,14 +516,14 @@
                         <div class="dropdown drop-cart">
                             <a class="nav-link" style="cursor: pointer" id="cart" href="#">
                                 <abbr>
-                                    <img src="imgs/cart.png" alt="location">
+                                    <img src="imgs/bag.svg" alt="location">
                                     <span class="badge">3</span>
                                 </abbr>
                                 <span class="item_name">My Cart</span>
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-md-block">
                         <div class="User-area">
                             <div class="User-avtar">
                                 <img src="imgs/147144.png"/>
@@ -540,7 +549,6 @@
         </div>
     </nav>
 </section>
-
 <!--------------end header---------------->
 
 <!--------------start footer ---------------->
