@@ -3677,10 +3677,10 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
     padding-right: 0;
 }
 .prepare_appointments .days-list .day{
-   border-bottom: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
 }
 .prepare_appointments .days-list .day:last-child{
-   border-bottom: none;
+    border-bottom: none;
 }
 .prepare_appointments .days-list .day-appointments{
     margin-top: 1em;
@@ -3694,7 +3694,7 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
     margin-bottom: 1em;
 }
 .prepare_appointments .days-list .day-appointments .appointment-time .form-group{
-   margin: 0 1em;
+    margin: 0 1em;
 }
 .prepare_appointments .days-list .day-appointments .appointment-time span {
     float: right;
@@ -3705,7 +3705,7 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
     z-index: 2;
 }
 .prepare_appointments .days-list .day-appointments .appointment-time .form-group input{
-   border-radius:10px ;
+    border-radius:10px ;
 }
 .prepare_appointments .days-list .day-appointments .appointment-time b{
     margin-top: 0.3em;
@@ -3918,14 +3918,14 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
     margin-bottom: 0;
 }
 .send-report .product-card .card-body {
-display: flex;
+    display: flex;
     justify-content: space-between;
 }
 .send-report .product-block {
     width: 80%;
 }
 .send-report .product-block img {
-   float: left;
+    float: left;
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -3933,17 +3933,17 @@ display: flex;
     margin-right: 1em;
 }
 .send-report .product-block p {
-   color: #000000DE;
+    color: #000000DE;
 }
 .send-report .product-block p.desc {
-   padding-top: 0.7em;
+    padding-top: 0.7em;
     font-weight: bold;
 }
 .send-report .product-block p b {
-   color: rgba(96, 96, 96, 0.87);
+    color: rgba(96, 96, 96, 0.87);
 }
 .send-report .product-card .delete-product i{
-  font-size: 20px;
+    font-size: 20px;
     color: darkred;
     transition: 0.5s;
 }
@@ -4287,8 +4287,8 @@ display: flex;
     height: 150px;
 }
 /*.doctors .card-text , .pharmacies .card-text , .botiques .card-text{*/
-    /*height: 80px;*/
-    /*overflow: hidden;*/
+/*height: 80px;*/
+/*overflow: hidden;*/
 /*}*/
 
 #blog .row .col-12{
@@ -4328,10 +4328,10 @@ display: flex;
         top:0!important;
     }
     .doctors .card-title, .pharmacies .card-title ,.botiques .card-title {
-       font-size: 12px;
+        font-size: 12px;
     }
     .doctors .card-subtitle, .pharmacies .card-subtitle ,.botiques .card-subtitle {
-       font-size: 10px;
+        font-size: 10px;
     }
     #button{
         bottom: 30px;
@@ -4544,7 +4544,7 @@ display: flex;
         bottom: 0!important;
         position: fixed;
     }
-    .User-area .dropdown-menu[data-bs-popper]{
+    .navbar-nav .nav-item .dropdown-menu[data-bs-popper]{
         left: auto;
         right: 0;
     }
@@ -4569,6 +4569,7 @@ display: flex;
     padding:0 30px;
     justify-content: space-around;
     width: 100%;
+    z-index:999999999;
 }
 .tab{
     cursor: pointer;
