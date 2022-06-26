@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa8e4b07-d718-491c-8132-2d30389e5fae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/header-with-searchinpit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/new_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/new_css.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="new_css.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new_css.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/new_css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="4528" column="22" selection-start-line="4528" selection-start-column="22" selection-end-line="4528" selection-end-column="22" />
+            <state relative-caret-position="400">
+              <caret line="4496" column="20" lean-forward="true" selection-start-line="4494" selection-start-column="3" selection-end-line="4496" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -25,7 +25,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115717">
+            <state relative-caret-position="23">
               <caret line="142" selection-start-line="142" selection-end-line="142" />
             </state>
           </provider>
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_header.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new_header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
@@ -148,32 +148,32 @@
       <find>product</find>
       <find>product-card</find>
       <find>fotorama</find>
-      <find />
+      <find>.send-report .clinic_services .desWrapper</find>
       <find>btn</find>
-      <find />
+      <find>.send-report .product-block img</find>
       <find>delete-product</find>
       <find>doctors</find>
       <find>doctors_slider</find>
-      <find />
+      <find>.botiques .card_images</find>
       <find>slider</find>
       <find>80vh</find>
-      <find />
+      <find>.pharmacies .card-body .save_icon, .botiques .card-body .save_icon, .doctors .card-body .save_icon</find>
       <find>font</find>
-      <find />
+      <find>.main_slider .item .item-desc p</find>
       <find>User-area</find>
       <find>navbar-c</find>
       <find>shrink</find>
-      <find />
+      <find>0:{</find>
       <find>vh</find>
       <find>.navbar-brand</find>
       <find>&lt;nav</find>
     </findStrings>
     <replaceStrings>
       <replace>#dad6ce</replace>
-      <replace />
+      <replace>Product Name</replace>
       <replace>main_section</replace>
       <replace>doctors-categories</replace>
-      <replace />
+      <replace>&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -226,13 +226,13 @@
         <option value="$PROJECT_DIR$/electronic_prescription.html" />
         <option value="$PROJECT_DIR$/css/new_new.css" />
         <option value="$PROJECT_DIR$/send_report.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/style_rtl.css" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/new_js.js" />
-        <option value="$PROJECT_DIR$/css/new_css.css" />
         <option value="$PROJECT_DIR$/new_header.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/new_css.css" />
       </list>
     </option>
   </component>
@@ -245,7 +245,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -339,12 +339,12 @@
       <workItem from="1653122168099" duration="6976000" />
       <workItem from="1654025433212" duration="9665000" />
       <workItem from="1654100461264" duration="2499000" />
-      <workItem from="1656248917947" duration="6391000" />
+      <workItem from="1656248917947" duration="7144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265298000" />
+    <option name="totallyTimeSpent" value="266051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -709,20 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115717">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/new_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="4528" column="22" selection-start-line="4528" selection-start-column="22" selection-end-line="4528" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -754,6 +740,20 @@
             <element signature="n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="4496" column="20" lean-forward="true" selection-start-line="4494" selection-start-column="3" selection-end-line="4496" selection-end-column="20" />
         </state>
       </provider>
     </entry>

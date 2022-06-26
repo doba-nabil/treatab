@@ -4492,9 +4492,9 @@ display: flex;
 .pharmacies .owl-item,
 .botiques .owl-item,
 .doctors .owl-item{
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    /*display: -webkit-flex;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
     height: auto !important;
     flex: 1;
 }
@@ -4511,7 +4511,9 @@ display: flex;
 /*new edit*/
 .card .card_images img{
     max-height: 200px!important;
+    min-height: 200px!important;
     max-width: 100%!important;
+    min-width: 100%!important;
     object-fit: contain;
 }
 
