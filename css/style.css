@@ -215,7 +215,7 @@ nav li a {
 
 .custom-menu .nav-link {
     position: relative;
-    padding: .8rem 2rem;
+    /*padding: .8rem 2rem;*/
 }
 
 .custom-menu .nav-link img {

@@ -253,3 +253,8 @@ ul {
 .main_section .share_win .back{
     transform: rotateY(180deg);
 }
+
+ul.category-tabs li a i{
+    left: 18px;
+    right: auto;
+}

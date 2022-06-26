@@ -641,12 +641,12 @@ jQuery(document).ready(function(){
 });
 
 jQuery(document).ready(function(){
-    if($(window).width() > 800){
+    if($(window).width() > 800) {
         $(window).scroll(function () {
             if ($(document).scrollTop() > 150) {
-                $('nav').addClass('shrink');
+                $('.tab-nav-container').addClass('shrink');
             } else {
-                $('nav').removeClass('shrink');
+                $('.tab-nav-container').removeClass('shrink');
             }
         });
     }
