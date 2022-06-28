@@ -4543,6 +4543,7 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
         top: auto!important;
         bottom: 0!important;
         position: fixed;
+        z-index: 999999999;
     }
     .navbar-nav .nav-item .dropdown-menu[data-bs-popper]{
         left: auto;
