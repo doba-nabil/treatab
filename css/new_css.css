@@ -3239,8 +3239,8 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
     width: 100%;
     margin: 25px 0;
     height: calc(100% - 50px);
-    border: var(--border);
-    border-radius: 10px;
+    /*border: var(--border);*/
+    border-radius: 5px;
     background: var(--msger-bg);
     box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -3307,21 +3307,29 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border: 3px solid grey;
 }
-
+.online .msg-img {
+    border: 3px solid greenyellow;
+}
 .msg-bubble {
     max-width: 450px;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 8px;
     background: var(--left-msg-bg);
 }
 
 .msg-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+    text-align: end;
 }
 
 .msg-info-name {
@@ -3330,11 +3338,12 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
 }
 
 .msg-info-time {
-    font-size: 0.85em;
+    font-size: 0.7em;
 }
 
 .left-msg .msg-bubble {
-    border-bottom-left-radius: 0;
+    /*border-bottom-left-radius: 0;*/
+    min-width: 50%;
 }
 
 .right-msg {
@@ -3344,7 +3353,8 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
 .right-msg .msg-bubble {
     background: var(--right-msg-bg);
     color: #fff;
-    border-bottom-right-radius: 0;
+    min-width: 50%;
+    /*border-bottom-right-radius: 0;*/
 }
 
 .right-msg .msg-img {
@@ -3370,7 +3380,7 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
     background: #FFFFFF;
     border: 1px solid #e7e7ee;
     padding: 0.5em 1em;
-    margin-right: 1em;
+    /*margin-right: 1em;*/
     border-radius: 10px;
 }
 
@@ -3379,7 +3389,8 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
 }
 
 .msger-send-btn {
-    margin-left: 10px;
+    /*margin-left: 10px;*/
+    margin: 0 20px;
     background: #FFFFFF;
     cursor: pointer;
 
@@ -3396,8 +3407,8 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
 }
 
 .msger-chat {
-    background-color: #F2F2F2;
-    background: url('../imgs/chat_bg.png');
+    background-color: rgba(242, 242, 242, 0.39);
+    /*background: url('../imgs/chat_bg.png');*/
 }
 
 .msger .filelabel {
